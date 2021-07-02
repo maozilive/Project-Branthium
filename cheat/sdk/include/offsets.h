@@ -1,7 +1,7 @@
 #define ENTITY_SIZE_DEF				0x42E0			//biggest entity offset
 
-#define OFFSET_ENTITYLIST			0x18eda78 // //0x18da3f8 //cl_entitylist
-#define OFFSET_LOCAL_ENT			0x1c9d198 // //0x1c89a78   //LocalPlayer
+#define OFFSET_ENTITYLIST			0x1911448 // //0x18da3f8 //cl_entitylist
+#define OFFSET_LOCAL_ENT			0x1cc0ce8 // //0x1c89a78   //LocalPlayer
 
 
 #define OFFSET_TEAM					0x448		//m_iTeamNum	
@@ -18,16 +18,16 @@
 
 #define OFFSET_GLOBALVARS 0x128bf40
 
-#define OFFSET_ORIGIN				0x14C			//m_vecAbsOrigin
-#define OFFSET_BONES				0xF38 			//m_bConstrainBetweenEndpoints 
+#define OFFSET_ORIGIN				0x014c			//m_vecAbsOrigin
+#define OFFSET_BONES				0x0f38 			//m_bConstrainBetweenEndpoints 
 #define OFFSET_AIMPUNCH				0x2430			//m_vecPunchWeapon_Angle
 #define OFFSET_CAMERAPOS			0x1ED0			
 #define OFFSET_VIEWANGLES			0x2518 			 
-#define OFFSET_OBSERVING_TARGET		0x3350 			//m_hObserverTarget
-#define OFFSET_NameList 0x81af640 // //0x81330F0
+#define OFFSET_OBSERVING_TARGET		0x3398 			//m_hObserverTarget
+#define OFFSET_NameList 0x8382450 // //0x81330F0
 
 #define OFFSET_MATRIX                  0x1b3bd0  
-#define OFFSET_VIEWRENDER                0x40bf468//  0x408B8E8  
+#define OFFSET_VIEWRENDER                0x41e3588//  0x408B8E8  
 
 #define OFFSET_ITEM_GLOW            0x2c0 //m_highlightFunctionBits
 
@@ -55,4 +55,4 @@
 #define GLOW_COLOR_B 0x1D8 //OK Script_CopyHighlightState mov tcx nº7  / m_highlightParams + 24 (0x18)
 #define GLOW_DISTANCE 0x3B4 //OK Script_Highlight_SetFarFadeDist / m_highlightServerFadeEndTimes + 52(0x34)
 
-#define OFFSET_HELMET_TYPE			0x4374			//m_helmetType
+#define OFFSET_HELMET_TYPE			0x4470			//m_helmetType
